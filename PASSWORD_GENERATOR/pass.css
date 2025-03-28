@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pageview{
+    height: 100vh;
+}
+
+.firstdiv{
+    width: 500px;
+    height: 560px;
+    background-color: rgb(3, 44, 44);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 8%;
+    box-shadow: 0 2px 10px rgb(23, 209, 209);
+    
+}
+@media screen and (max-width:485px){
+    .firstdiv{
+        position: absolute;
+        top: 20%;
+    }
+}
+
+h1{
+    font-size: 35px;
+    font-weight: 600;
+    color: rgba(23, 66, 86, 0.92);
+}
+
+.maindiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 250px;
+    height: 380px;
+    background: rgb(177, 176, 176);
+    border: 2px solid rgb(15, 183, 183);
+    margin: auto;
+    margin-top:15%;
+    border-radius: 20px;
+}
+.maindiv:hover{
+    box-shadow: 0px 0px 20px rgb(15, 183, 183);
+}
+
+.line{
+    height: 4px;
+    width: 100%;
+    background-color: rgba(30, 241, 30, 0.338);
+    border-radius: 5px;
+}
+
+.passbox{
+    height: 10%;
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid  rgba(14, 8, 96, 0.42);
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 8px;
+    color: rgb(30, 29, 29);
+}
+
+.btn{
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px black;
+}
